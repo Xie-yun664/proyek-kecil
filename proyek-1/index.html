@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aplikasi Daftar Tugas</title>
+  <style>
+    body {
+      font-family: Arial,Sans-Serif;
+      text-align: center;
+      margin: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    input, button {
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+    button {
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-left: 5px;
+    }
+    button.hapus {
+      background-color: #f44336;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      background-color: #f2f2f2;
+      padding: 8px;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Aplikasi Daftar Tugas</h1>
+  
+  <input type="text" id="inputTugas" placeholder="tambah tugas baru">
+  <button type="submit" id="tombolTambah">Tambah Tugas</button>
+
+  <ul id="daptarTugas"></ul>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
